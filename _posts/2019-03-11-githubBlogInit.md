@@ -1,10 +1,8 @@
 ---
 title: GitHub 블로그 만들기를 위한 GitHub 블로그 포스트
-tags:
-- image
 ---
 
-# 블로그란? 
+# 1.블로그란? 
 
 블로그는 웹(web)과 로그(log)의 합성어로 개인의 생각과 경험, 알리고 싶은 견해나 주장, 나아가 전문지식 등을 웹에다 일기(로그)처럼 기록해 다른 사람들도 보고 읽고 댓글을 달수 있게끔 열어 놓은 글모음을 말한다.
 [네이버 지식백과] 블로그 [Blog] (손에 잡히는 IT 시사용어, 2008.02.01)<br>
@@ -24,10 +22,16 @@ tags:
 
 설치형 블로그 중 Git Page를 만드는 방법에 대해 알아보자.<br>
 ~~이 페이지도 Git Page로 만들어졌다.~~
-# GitPage 만들기
+# 2.GitPage 만들기
 1. [깃허브 계정 만들기](https://github.com)
 2.  Repository 생성
-```yaml
-images:
-	path : /images/repository1.jpg
-```
+![image-center]({{ '/images/repository1.png' | absolute_url }}){: .align-center}
+![image-center]({{ '/images/repository2.png' | absolute_url }}){: .align-center}
+<span style="color:red">&#42;Repository이름과 GitPage의 이름은 동일해야 한다.</span>
+![image-center]({{ '/images/repository3.png' | absolute_url }}){: .align-center}
+3. bluenada08.github.io 접속시
+![image-center]({{ '/images/repository4.png' | absolute_url }}){: .align-center}
+
+# 3.JeKyll 테마 적용하기
+Github에 수백개의 [Jekyll 테마](https://github.com/topics/jekyll-theme) 중 하나를 선택하시면 됩니다.<br>
+이 중에 저는 [so-simple-theme](https://github.com/mmistakes/so-simple-theme)로 적용해 보겠습니다.
