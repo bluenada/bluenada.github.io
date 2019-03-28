@@ -32,7 +32,7 @@ title: GitHub 블로그 만들기를 위한 GitHub 블로그 포스트
 3. index.html 생성
 * Index.html외에 Jekyll테마 적용시 index.md로 작성해야 하는 경우도 있습니다.
 ![image-center]({{ '/images/repository10.png' | absolute_url }}){: .align-center}
-4. [username.github.io](https://bluenada08.github.io) 접속
+4. [username.github.io](https://bluenada08.github.io) 접속하면 index.html에 작성한 Hello World!가 보입니다.
 ![image-center]({{ '/images/repository11.png' | absolute_url }}){: .align-center}
 5. 프로젝트관리를 위해 GIT을 연결해야 하는데 터미널에서  폴더로 이동 후 아래 명령어 입력하시면 됩니다.<br>
 ```
@@ -42,3 +42,5 @@ title: GitHub 블로그 만들기를 위한 GitHub 블로그 포스트
 ```
 ~ $ cd username.github.io
 ```
+
+*생각보다 GitPage만드는 방법은 간단합니다. 다음장에서 블로그 페이지 관리를 위한 Jekyll테마 적용에 대해 설명하겠습니다.
