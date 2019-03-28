@@ -27,11 +27,18 @@ title: GitHub 블로그 만들기를 위한 GitHub 블로그 포스트
 2.  Repository 생성
 ![image-center]({{ '/images/repository1.png' | absolute_url }}){: .align-center}
 ![image-center]({{ '/images/repository2.png' | absolute_url }}){: .align-center}
-<span style="color:red">&#42;Repository이름과 GitPage의 이름은 동일해야 한다.</span>
+<span style="color:red">&#42;Repository이름과 GitPage의 이름은 동일해야 합니다.</span>
 ![image-center]({{ '/images/repository3.png' | absolute_url }}){: .align-center}
-3. bluenada08.github.io 접속시
-![image-center]({{ '/images/repository4.png' | absolute_url }}){: .align-center}
-
-# 3.JeKyll 테마 적용하기
-Github에 수백개의 [Jekyll 테마](https://github.com/topics/jekyll-theme) 중 하나를 선택하시면 됩니다.<br>
-이 중에 저는 [so-simple-theme](https://github.com/mmistakes/so-simple-theme)로 적용해 보겠습니다.
+3. index.html 생성
+* Index.html외에 Jekyll테마 적용시 index.md로 작성해야 하는 경우도 있습니다.
+![image-center]({{ '/images/repository10.png' | absolute_url }}){: .align-center}
+4. [username.github.io](https://bluenada08.github.io) 접속
+![image-center]({{ '/images/repository11.png' | absolute_url }}){: .align-center}
+5. 프로젝트관리를 위해 GIT을 연결해야 하는데 터미널에서  폴더로 이동 후 아래 명령어 입력하시면 됩니다.<br>
+```
+~ $ git clone https://github.com/username/username.github.io
+```
+6. 아래 명령어로 들어가 보시면 3번에서 만든 index.html이 들어와 있습니다.
+```
+~ $ cd username.github.io
+```
